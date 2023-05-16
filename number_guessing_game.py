@@ -6,11 +6,12 @@ def guess_number():
     attempts = 0
 
     print("Welcome to guess Pythons number!")
-
-    user_guess = int(input("Guess the number Python chose (between 1 and 100) Enter guess: ")) #user inputs guess int() converts string to interger
-    attempts += 1 #short for attempts = attempts + 1 increase by 1 each guess
-
+    
     while True:
+        user_guess = int(input("Guess the number Python chose (between 1 and 100) Enter guess: ")) #user inputs guess int() converts string to interger
+        attempts += 1 #short for attempts = attempts + 1 increase by 1 each guess
+
+    
         if user_guess < python_number:
             print("Your guess is lower than Pythons number! Try again.")
         elif user_guess > python_number:
