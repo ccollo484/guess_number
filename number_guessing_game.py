@@ -17,5 +17,5 @@ def guess_number():
             print("Your guess is higher than Pythons number! Try again.")
         else:
             print(f"Well done! you guessed {user_guess} and pythons number was {python_number}. You guessed in {attempts} attempts!")
-
+            break
 guess_number()
